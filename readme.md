@@ -1,10 +1,11 @@
-# BG_Parliament
+# Bulgarian Parliament Stream Viewer
 
 A lightweight Flutter client designed to display the live HLS stream from the Bulgarian Parliament. The app maintains an awake screen state and features an NTP synchronized clock.
 
-## Disclaimer
+# Disclaimer
 
-This project does **not** claim any rights to the video stream content. All rights belong to their respective owners. This app simply provides a Flutter-based interface to access the stream.
+This project is not affiliated with, endorsed by, or associated with the Bulgarian National Assembly or any government institution. This project does **not** claim any rights to the video stream content. All rights to the video stream and official symbols belong to their respective owners. This app simply provides a Flutter based interface to access the stream.
+
 
 ## License
 
