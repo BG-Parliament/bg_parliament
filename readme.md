@@ -32,9 +32,9 @@ flutter pub get
 ```
 flutter run
 ```
-4. Build all releases:
+4. Build releases:
 ```
-
+flutter build apk --release --split-per-abi --target-platform android-arm,android-arm64,android-x64
 ```
 
 ## Features
