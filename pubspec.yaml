@@ -1,0 +1,25 @@
+name: bg_parliament
+description: Live stream viewer for Bulgarian parliament sessions
+publish_to: 'github'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+  chewie: ^1.7.0
+  http: ^0.13.5
+  ntp: ^2.0.0
+  wakelock_plus: ^1.3.2
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
