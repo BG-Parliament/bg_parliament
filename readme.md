@@ -29,11 +29,11 @@ cd bg_parliament
 ```
 flutter pub get
 ```
-3. Build and run on your target device or emulator:
+3. Build for and run on your target device or emulator:
 ```
 flutter run
 ```
-4. Build releases:
+4. Build releases for Android:
 ```
 flutter build apk --release --split-per-abi --target-platform android-arm,android-arm64,android-x64
 ```
