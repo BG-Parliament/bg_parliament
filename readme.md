@@ -46,6 +46,22 @@ flutter build apk --release --split-per-abi --target-platform android-arm,androi
 - Keeps the device screen awake during playback.
 - Exit app via close button.
 
+## Further Improvements
+
+**Error Messages:**
+- **DNS_FAIL**: "DNS lookup failed."
+- **HLS_404**: "Stream 404'd. Source is gone or your CDN crapped out. Deal with it."
+- **TIMEOUT**: "Connection timed out. Your network is slow. Upgrade or stop whining."
+- **CODEC_FAIL**: "Codec failed. Your crappy device can't handle H.264. Buy better hardware."
+
+**Features:**
+- **Real stream health checks**: Ping the stream endpoint before initializing to avoid failures.
+- **Retry logic**: Uses exponential backoff for reliable recovery.
+- **Buffering indicators**: Displays "Buffering..." to keep users informed.
+- **NTP fallback chain**: Tries local clock, mobile NTP, then system time for sync.
+- **Log levels**: Supports DEBUG, INFO, and ERROR; logs to file for analysis.
+- **Kill wakelock on pause**: Releases wakelock to save battery.
+
 ## Contributing
 
-Contributions are welcome! Please submit small, focused patches with clear descriptions. Ensure your code is clean, readable, and follows K&R best practices.
+Contributions are welcome! Please submit small, focused patches with clear descriptions. Ensure your code is readable, and follows K&R best practices.
