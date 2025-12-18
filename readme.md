@@ -49,10 +49,10 @@ flutter build apk --release --split-per-abi --target-platform android-arm,androi
 ## Further Improvements
 
 **Error Messages:**
-- **DNS_FAIL**: "DNS lookup failed. The DNS gods are mad at you."
-- **HLS_404**: "Stream 404'd. Source is gone or your CDN crapped out. Deal with it."
-- **TIMEOUT**: "Connection timed out. Your network is slow. Upgrade or stop whining."
-- **CODEC_FAIL**: "Codec failed. Your potato phone can't handle H.264. Buy better hardware."
+- **DNS_FAIL**: `DNS lookup failed` The DNS gods are mad at you.
+- **HLS_404**: `Stream 404'd` Source is gone or your CDN crapped out. Deal with it.
+- **TIMEOUT**: `Connection timed out` Your network is slow. Upgrade or stop whining.
+- **CODEC_FAIL**: `Codec failed` Your potato phone can't handle H.264. Buy better hardware.
 
 **Features:**
 - **Real stream health checks**: Ping the stream endpoint before initializing to avoid failures.
