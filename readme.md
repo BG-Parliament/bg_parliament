@@ -43,13 +43,7 @@ ARCH=$(uname -m)
 
 flutter build linux --release
 
-cd build/linux/${ARCH}/release/bundle/
-
-NAME=$(basename $(pwd)/..)
-
-chmod +x "${NAME}"
-
-./"${NAME}"
+ls -la build/linux/${ARCH}/release/bundle/
 ```
 
 
