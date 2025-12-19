@@ -37,6 +37,21 @@ flutter run
 ```
 flutter build apk --release --split-per-abi --target-platform android-arm,android-arm64,android-x64
 ```
+5. Build releases for Linux:
+```
+ARCH=$(uname -m)
+
+flutter build linux --release
+
+cd build/linux/${ARCH}/release/bundle/
+
+NAME=$(basename $(pwd)/..)
+
+chmod +x "${NAME}"
+
+./"${NAME}"
+```
+
 
 ## Features
 
