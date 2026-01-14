@@ -73,4 +73,4 @@ ls -la build/linux/${ARCH}/release/bundle/
 
 ## Contributing
 
-Contributions are welcome! Please submit small, focused patches with clear descriptions. Ensure your code is readable, and follows K&R best practices.
+Contributions are welcome! Please submit small, focused patches with clear descriptions. Ensure your code is readable and follows K&R best practices and the [Linux kernel coding style](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
